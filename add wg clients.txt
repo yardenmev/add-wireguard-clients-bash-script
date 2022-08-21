@@ -13,7 +13,7 @@ color4="\033[41m"
 echo -e "${color2}welcome to the adding wg client script! \e[0m"
 echo " "
 exsitsclient=$(grep -o -i peer /etc/wireguard/wg0.conf  | wc -l)
-echo -n -e "${color2}i see that you allredy have $exsitsclient client(s) \e[0m"
+echo -n -e "${color2}i see that you already have $exsitsclient client(s) \e[0m"
 echo " "
 echo -n -e "${color2}how many clients do you want to add? \e[0m"
 read clientnumbertoadd
